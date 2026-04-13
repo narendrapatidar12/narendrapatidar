@@ -154,10 +154,13 @@ function Nav() {
 function Hero() {
   const [count, setCount] = useState(0);
   const roles = ["Full Stack Developer","Backend Specialist","API Integration Expert",".NET & Node.js Engineer"];
-  useEffect(() => {
-    const t = setInterval(() => setCount(c=>(c+1)%roles.length), 2800);
-    return () => clearInterval(t);
-  }, []);
+useEffect(() => {
+  const t = setInterval(() => {
+    setCount(c => (c + 1) % roles.length);
+  }, 2800);
+
+  return () => clearInterval(t);
+}, [roles.length]);
 
   return (
     <section id="hero" style={{ minHeight:"100vh", background:T.cream, display:"flex", flexDirection:"column", justifyContent:"center", position:"relative", overflow:"hidden", paddingTop:"60px" }}>
