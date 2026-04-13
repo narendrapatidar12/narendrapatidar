@@ -1,9 +1,9 @@
 import { useState, useEffect, useRef } from "react";
 
 // ── EmailJS config — replace with your keys ──────────────────────────────────
-const EJ_PUBLIC  = "YOUR_PUBLIC_KEY";
-const EJ_SERVICE = "YOUR_SERVICE_ID";
-const EJ_TMPL    = "YOUR_TEMPLATE_ID";
+const EJ_PUBLIC  = "YnTHp8EsJk3bTMrc2";
+const EJ_SERVICE = "service_p8yt1ns";
+const EJ_TMPL    = "template_vpsd2qj";
 
 // ── Design tokens ─────────────────────────────────────────────────────────────
 const T = {
