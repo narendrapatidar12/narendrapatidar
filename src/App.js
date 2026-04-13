@@ -439,7 +439,7 @@ function Contact() {
               Open to remote roles worldwide — backend, full stack, or API specialist positions.
             </p>
             <div style={{ display:"flex", flexDirection:"column" }}>
-              {[["✉","narendrapatidar842@gmail.com","mailto:narendrapatidar842@gmail.com"],["☎","+91 9630749382","tel:+919630749382"],["📍","Ujjain, MP, India","#"]].map(([ic,label,href])=>(
+              {[["✉","narendrapatidar842@gmail.com","mailto:narendrapatidar842@gmail.com"],["☎","+91 9630749382","tel:+919630749382"],["📍","Indore, MP, India","#"]].map(([ic,label,href])=>(
                 <a key={label} href={href} style={{ display:"flex", alignItems:"center", gap:"1rem", fontFamily:"'Lato',sans-serif", fontSize:"0.8rem", color:"#A89F92", textDecoration:"none", letterSpacing:"0.04em", padding:"0.9rem 0", borderBottom:"1px solid #2E2820", transition:"color 0.2s" }}
                   onMouseOver={e=>e.currentTarget.style.color=T.cream}
                   onMouseOut={e=>e.currentTarget.style.color="#A89F92"}
